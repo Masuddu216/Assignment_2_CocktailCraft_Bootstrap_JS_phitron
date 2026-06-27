@@ -1,0 +1,54 @@
+/* ── Minimal Custom CSS — Bootstrap does the rest ── */
+
+/* Logo clickable cursor */
+.logo-link {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Drink card image */
+.drink-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card hover lift */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+}
+
+/* Rounded avatar in cart */
+.group-avatar {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+}
+
+/* Pagination dark theme */
+.pagination .page-link {
+  background-color: #1a1a2e;
+  border-color: #444;
+  color: #ffc107;
+}
+.pagination .page-link:hover {
+  background-color: #ffc107;
+  color: #000;
+}
+.pagination .page-item.active .page-link {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #000;
+  font-weight: 700;
+}
+.pagination .page-item.disabled .page-link {
+  background-color: #111;
+  color: #555;
+  border-color: #333;
+}

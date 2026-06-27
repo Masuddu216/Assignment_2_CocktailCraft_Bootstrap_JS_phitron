@@ -34,7 +34,7 @@ cocktailcraft/
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/your-username/cocktailcraft.git
+git clone (https://github.com/Masuddu216/Assignment_2_CocktailCraft_Bootstrap_JS_phitron.git)
 cd cocktailcraft
 ```
 
@@ -124,6 +124,6 @@ Clicking **Details** fetches full drink data via `/lookup.php?i={id}` and render
 
 ---
 
-## 📄 License
+## Live Link of this project:
 
-This project is for educational purposes. Cocktail data is provided by [TheCocktailDB](https://www.thecocktaildb.com) under their free tier API.
+

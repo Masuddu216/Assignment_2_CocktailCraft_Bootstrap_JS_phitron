@@ -126,4 +126,4 @@ Clicking **Details** fetches full drink data via `/lookup.php?i={id}` and render
 
 ## Live Link of this project:
 
-
+https://symphonious-moxie-c53bd1.netlify.app/
